@@ -1,0 +1,1322 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">1 suite, 2 failed tests</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-SalesForceTesting" class="navigator-link">
+              <span class="suite-name border-failed">SalesForceTesting</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-SalesForceTesting" class="navigator-link ">
+                    <span>testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-SalesForceTesting" class="navigator-link ">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-SalesForceTesting" class="navigator-link ">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-SalesForceTesting" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-SalesForceTesting" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-SalesForceTesting" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-SalesForceTesting" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">38 methods, 2 failed,   36 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-SalesForceTesting" class="hide-methods failed suite-SalesForceTesting"> (hide)</a> <!-- hide-methods failed suite-SalesForceTesting -->
+                      <a href="#" panel-name="suite-SalesForceTesting" class="show-methods failed suite-SalesForceTesting"> (show)</a> <!-- show-methods failed suite-SalesForceTesting -->
+                    </span>
+                    <div class="method-list-content failed suite-SalesForceTesting">
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-SalesForceTesting" title="com.tekarch.tests.AutomationScripts" class="method navigator-link" hash-for-method="testCase13">testCase13</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-SalesForceTesting" title="com.tekarch.tests.AutomationScripts" class="method navigator-link" hash-for-method="testCase32">testCase32</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-SalesForceTesting -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-SalesForceTesting" class="hide-methods passed suite-SalesForceTesting"> (hide)</a> <!-- hide-methods passed suite-SalesForceTesting -->
+                      <a href="#" panel-name="suite-SalesForceTesting" class="show-methods passed suite-SalesForceTesting"> (show)</a> <!-- show-methods passed suite-SalesForceTesting -->
+                    </span>
+                    <div class="method-list-content passed suite-SalesForceTesting">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-SalesForceTesting" title="com.tekarch.tests.AutomationScripts" class="method navigator-link" hash-for-method="testCase1">testCase1</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-SalesForceTesting" title="com.tekarch.tests.AutomationScripts" class="method navigator-link" hash-for-method="testCase10">testCase10</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-SalesForceTesting" title="com.tekarch.tests.AutomationScripts" class="method navigator-link" hash-for-method="testCase11">testCase11</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-SalesForceTesting" title="com.tekarch.tests.AutomationScripts" class="method navigator-link" hash-for-method="testCase12">testCase12</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-SalesForceTesting" title="com.tekarch.tests.AutomationScripts" class="method navigator-link" hash-for-method="testCase14">testCase14</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-SalesForceTesting" title="com.tekarch.tests.AutomationScripts" class="method navigator-link" hash-for-method="testCase15">testCase15</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-SalesForceTesting" title="com.tekarch.tests.AutomationScripts" class="method navigator-link" hash-for-method="testCase16">testCase16</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-SalesForceTesting" title="com.tekarch.tests.AutomationScripts" class="method navigator-link" hash-for-method="testCase17">testCase17</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-SalesForceTesting" title="com.tekarch.tests.AutomationScripts" class="method navigator-link" hash-for-method="testCase18">testCase18</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-SalesForceTesting" title="com.tekarch.tests.AutomationScripts" class="method navigator-link" hash-for-method="testCase19">testCase19</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-SalesForceTesting" title="com.tekarch.tests.AutomationScripts" class="method navigator-link" hash-for-method="testCase2">testCase2</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-SalesForceTesting" title="com.tekarch.tests.AutomationScripts" class="method navigator-link" hash-for-method="testCase20">testCase20</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-SalesForceTesting" title="com.tekarch.tests.AutomationScripts" class="method navigator-link" hash-for-method="testCase21">testCase21</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-SalesForceTesting" title="com.tekarch.tests.AutomationScripts" class="method navigator-link" hash-for-method="testCase22">testCase22</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-SalesForceTesting" title="com.tekarch.tests.AutomationScripts" class="method navigator-link" hash-for-method="testCase23">testCase23</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-SalesForceTesting" title="com.tekarch.tests.AutomationScripts" class="method navigator-link" hash-for-method="testCase24">testCase24</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-SalesForceTesting" title="com.tekarch.tests.AutomationScripts" class="method navigator-link" hash-for-method="testCase25">testCase25</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-SalesForceTesting" title="com.tekarch.tests.AutomationScripts" class="method navigator-link" hash-for-method="testCase26">testCase26</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-SalesForceTesting" title="com.tekarch.tests.AutomationScripts" class="method navigator-link" hash-for-method="testCase27">testCase27</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-SalesForceTesting" title="com.tekarch.tests.AutomationScripts" class="method navigator-link" hash-for-method="testCase28">testCase28</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-SalesForceTesting" title="com.tekarch.tests.AutomationScripts" class="method navigator-link" hash-for-method="testCase29">testCase29</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-SalesForceTesting" title="com.tekarch.tests.AutomationScripts" class="method navigator-link" hash-for-method="testCase3">testCase3</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-SalesForceTesting" title="com.tekarch.tests.AutomationScripts" class="method navigator-link" hash-for-method="testCase30">testCase30</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-SalesForceTesting" title="com.tekarch.tests.AutomationScripts" class="method navigator-link" hash-for-method="testCase31">testCase31</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-SalesForceTesting" title="com.tekarch.tests.AutomationScripts" class="method navigator-link" hash-for-method="testCase33">testCase33</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-SalesForceTesting" title="com.tekarch.tests.AutomationScripts" class="method navigator-link" hash-for-method="testCase34">testCase34</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-SalesForceTesting" title="com.tekarch.tests.AutomationScripts" class="method navigator-link" hash-for-method="testCase35">testCase35</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-SalesForceTesting" title="com.tekarch.tests.AutomationScripts" class="method navigator-link" hash-for-method="testCase36">testCase36</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-SalesForceTesting" title="com.tekarch.tests.AutomationScripts" class="method navigator-link" hash-for-method="testCase37">testCase37</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-SalesForceTesting" title="com.tekarch.tests.AutomationScripts" class="method navigator-link" hash-for-method="testCase4a">testCase4a</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-SalesForceTesting" title="com.tekarch.tests.AutomationScripts" class="method navigator-link" hash-for-method="testCase4b">testCase4b</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-SalesForceTesting" title="com.tekarch.tests.AutomationScripts" class="method navigator-link" hash-for-method="testCase5">testCase5</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-SalesForceTesting" title="com.tekarch.tests.AutomationScripts" class="method navigator-link" hash-for-method="testCase6">testCase6</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-SalesForceTesting" title="com.tekarch.tests.AutomationScripts" class="method navigator-link" hash-for-method="testCase7">testCase7</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-SalesForceTesting" title="com.tekarch.tests.AutomationScripts" class="method navigator-link" hash-for-method="testCase8">testCase8</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-SalesForceTesting" title="com.tekarch.tests.AutomationScripts" class="method navigator-link" hash-for-method="testCase9">testCase9</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-SalesForceTesting -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-SalesForceTesting" class="panel SalesForceTesting">
+          <div class="suite-SalesForceTesting-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.tekarch.tests.AutomationScripts</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testCase13">
+                  </a> <!-- testCase13 -->
+                  <span class="method-name">testCase13</span>
+                  <div class="stack-trace">java.lang.AssertionError: no such alert
+  (Session info: chrome=101.0.4951.64)
+Build info: version: &apos;4.1.4&apos;, revision: &apos;535d840ee2&apos;
+System info: host: &apos;Yaminis-MacBook-Air.local&apos;, ip: &apos;2600:8802:180c:8c00:dcfb:454a:9884:b63%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;12.1&apos;, java.version: &apos;11.0.14&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [ca5699126570aeff4c33ed8ace803bcd, getAlertText {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 101.0.4951.64, chrome: {chromedriverVersion: 101.0.4951.41 (93c720db8323..., userDataDir: /var/folders/fc/qxv5mypn205...}, goog:chromeOptions: {debuggerAddress: localhost:52526}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), se:cdp: ws://localhost:52526/devtoo..., se:cdpVersion: 101.0.4951.64, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: ca5699126570aeff4c33ed8ace803bcd expected [false] but found [true]
+	at com.tekarch.tests.AutomationScripts.testCase13(AutomationScripts.java:669)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+... Removed 30 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testCase32">
+                  </a> <!-- testCase32 -->
+                  <span class="method-name">testCase32</span>
+                  <div class="stack-trace">java.lang.AssertionError: New Contact Creation Failed.Error: Invalid Data.
+Review all error messages below to correct your data. expected [true] but found [false]
+	at com.tekarch.tests.AutomationScripts.testCase32(AutomationScripts.java:1469)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+... Removed 30 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-SalesForceTesting-class-failed -->
+          <div class="suite-SalesForceTesting-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.tekarch.tests.AutomationScripts</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testCase1">
+                  </a> <!-- testCase1 -->
+                  <span class="method-name">testCase1</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testCase10">
+                  </a> <!-- testCase10 -->
+                  <span class="method-name">testCase10</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testCase11">
+                  </a> <!-- testCase11 -->
+                  <span class="method-name">testCase11</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testCase12">
+                  </a> <!-- testCase12 -->
+                  <span class="method-name">testCase12</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testCase14">
+                  </a> <!-- testCase14 -->
+                  <span class="method-name">testCase14</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testCase15">
+                  </a> <!-- testCase15 -->
+                  <span class="method-name">testCase15</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testCase16">
+                  </a> <!-- testCase16 -->
+                  <span class="method-name">testCase16</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testCase17">
+                  </a> <!-- testCase17 -->
+                  <span class="method-name">testCase17</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testCase18">
+                  </a> <!-- testCase18 -->
+                  <span class="method-name">testCase18</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testCase19">
+                  </a> <!-- testCase19 -->
+                  <span class="method-name">testCase19</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testCase2">
+                  </a> <!-- testCase2 -->
+                  <span class="method-name">testCase2</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testCase20">
+                  </a> <!-- testCase20 -->
+                  <span class="method-name">testCase20</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testCase21">
+                  </a> <!-- testCase21 -->
+                  <span class="method-name">testCase21</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testCase22">
+                  </a> <!-- testCase22 -->
+                  <span class="method-name">testCase22</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testCase23">
+                  </a> <!-- testCase23 -->
+                  <span class="method-name">testCase23</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testCase24">
+                  </a> <!-- testCase24 -->
+                  <span class="method-name">testCase24</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testCase25">
+                  </a> <!-- testCase25 -->
+                  <span class="method-name">testCase25</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testCase26">
+                  </a> <!-- testCase26 -->
+                  <span class="method-name">testCase26</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testCase27">
+                  </a> <!-- testCase27 -->
+                  <span class="method-name">testCase27</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testCase28">
+                  </a> <!-- testCase28 -->
+                  <span class="method-name">testCase28</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testCase29">
+                  </a> <!-- testCase29 -->
+                  <span class="method-name">testCase29</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testCase3">
+                  </a> <!-- testCase3 -->
+                  <span class="method-name">testCase3</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testCase30">
+                  </a> <!-- testCase30 -->
+                  <span class="method-name">testCase30</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testCase31">
+                  </a> <!-- testCase31 -->
+                  <span class="method-name">testCase31</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testCase33">
+                  </a> <!-- testCase33 -->
+                  <span class="method-name">testCase33</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testCase34">
+                  </a> <!-- testCase34 -->
+                  <span class="method-name">testCase34</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testCase35">
+                  </a> <!-- testCase35 -->
+                  <span class="method-name">testCase35</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testCase36">
+                  </a> <!-- testCase36 -->
+                  <span class="method-name">testCase36</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testCase37">
+                  </a> <!-- testCase37 -->
+                  <span class="method-name">testCase37</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testCase4a">
+                  </a> <!-- testCase4a -->
+                  <span class="method-name">testCase4a</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testCase4b">
+                  </a> <!-- testCase4b -->
+                  <span class="method-name">testCase4b</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testCase5">
+                  </a> <!-- testCase5 -->
+                  <span class="method-name">testCase5</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testCase6">
+                  </a> <!-- testCase6 -->
+                  <span class="method-name">testCase6</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testCase7">
+                  </a> <!-- testCase7 -->
+                  <span class="method-name">testCase7</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testCase8">
+                  </a> <!-- testCase8 -->
+                  <span class="method-name">testCase8</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testCase9">
+                  </a> <!-- testCase9 -->
+                  <span class="method-name">testCase9</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-SalesForceTesting-class-passed -->
+        </div> <!-- panel SalesForceTesting -->
+        <div panel-name="test-xml-SalesForceTesting" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">/Users/mahenyamini/eclipse-workspace/SalesforceProject/testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;SalesForceTesting&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
+  &lt;listeners&gt;
+    &lt;listener class-name=&quot;com.tekarch.utility.GenerateReportsListener&quot;/&gt;
+  &lt;/listeners&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;TestChrome&quot;&gt;
+    &lt;parameter name=&quot;browser&quot; value=&quot;chrome&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.tekarch.tests.AutomationScripts&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- TestChrome --&gt;
+&lt;/suite&gt; &lt;!-- SalesForceTesting --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-SalesForceTesting" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for SalesForceTesting</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">TestChrome (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-SalesForceTesting" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for SalesForceTesting</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-SalesForceTesting" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for SalesForceTesting</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_SalesForceTesting');
+function tableData_SalesForceTesting() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(38);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'testCase6')
+data.setCell(0, 2, 'com.tekarch.tests.AutomationScripts')
+data.setCell(0, 3, 57466);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'testCase35')
+data.setCell(1, 2, 'com.tekarch.tests.AutomationScripts')
+data.setCell(1, 3, 21606);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'testCase7')
+data.setCell(2, 2, 'com.tekarch.tests.AutomationScripts')
+data.setCell(2, 3, 21529);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'testCase34')
+data.setCell(3, 2, 'com.tekarch.tests.AutomationScripts')
+data.setCell(3, 3, 21119);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'testCase14')
+data.setCell(4, 2, 'com.tekarch.tests.AutomationScripts')
+data.setCell(4, 3, 20841);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'testCase22')
+data.setCell(5, 2, 'com.tekarch.tests.AutomationScripts')
+data.setCell(5, 3, 20213);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'testCase13')
+data.setCell(6, 2, 'com.tekarch.tests.AutomationScripts')
+data.setCell(6, 3, 18096);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'testCase36')
+data.setCell(7, 2, 'com.tekarch.tests.AutomationScripts')
+data.setCell(7, 3, 17131);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'testCase26')
+data.setCell(8, 2, 'com.tekarch.tests.AutomationScripts')
+data.setCell(8, 3, 16088);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'testCase3')
+data.setCell(9, 2, 'com.tekarch.tests.AutomationScripts')
+data.setCell(9, 3, 15679);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'testCase31')
+data.setCell(10, 2, 'com.tekarch.tests.AutomationScripts')
+data.setCell(10, 3, 15108);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'testCase10')
+data.setCell(11, 2, 'com.tekarch.tests.AutomationScripts')
+data.setCell(11, 3, 14202);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'testCase16')
+data.setCell(12, 2, 'com.tekarch.tests.AutomationScripts')
+data.setCell(12, 3, 14122);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'testCase12')
+data.setCell(13, 2, 'com.tekarch.tests.AutomationScripts')
+data.setCell(13, 3, 13930);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'testCase24')
+data.setCell(14, 2, 'com.tekarch.tests.AutomationScripts')
+data.setCell(14, 3, 13802);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'testCase37')
+data.setCell(15, 2, 'com.tekarch.tests.AutomationScripts')
+data.setCell(15, 3, 13478);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'testCase30')
+data.setCell(16, 2, 'com.tekarch.tests.AutomationScripts')
+data.setCell(16, 3, 13399);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'testCase11')
+data.setCell(17, 2, 'com.tekarch.tests.AutomationScripts')
+data.setCell(17, 3, 12132);
+data.setCell(18, 0, 18)
+data.setCell(18, 1, 'testCase18')
+data.setCell(18, 2, 'com.tekarch.tests.AutomationScripts')
+data.setCell(18, 3, 11299);
+data.setCell(19, 0, 19)
+data.setCell(19, 1, 'testCase19')
+data.setCell(19, 2, 'com.tekarch.tests.AutomationScripts')
+data.setCell(19, 3, 11274);
+data.setCell(20, 0, 20)
+data.setCell(20, 1, 'testCase8')
+data.setCell(20, 2, 'com.tekarch.tests.AutomationScripts')
+data.setCell(20, 3, 10079);
+data.setCell(21, 0, 21)
+data.setCell(21, 1, 'testCase20')
+data.setCell(21, 2, 'com.tekarch.tests.AutomationScripts')
+data.setCell(21, 3, 9868);
+data.setCell(22, 0, 22)
+data.setCell(22, 1, 'testCase25')
+data.setCell(22, 2, 'com.tekarch.tests.AutomationScripts')
+data.setCell(22, 3, 9679);
+data.setCell(23, 0, 23)
+data.setCell(23, 1, 'testCase32')
+data.setCell(23, 2, 'com.tekarch.tests.AutomationScripts')
+data.setCell(23, 3, 9284);
+data.setCell(24, 0, 24)
+data.setCell(24, 1, 'testCase28')
+data.setCell(24, 2, 'com.tekarch.tests.AutomationScripts')
+data.setCell(24, 3, 9160);
+data.setCell(25, 0, 25)
+data.setCell(25, 1, 'testCase17')
+data.setCell(25, 2, 'com.tekarch.tests.AutomationScripts')
+data.setCell(25, 3, 8740);
+data.setCell(26, 0, 26)
+data.setCell(26, 1, 'testCase33')
+data.setCell(26, 2, 'com.tekarch.tests.AutomationScripts')
+data.setCell(26, 3, 8640);
+data.setCell(27, 0, 27)
+data.setCell(27, 1, 'testCase29')
+data.setCell(27, 2, 'com.tekarch.tests.AutomationScripts')
+data.setCell(27, 3, 8619);
+data.setCell(28, 0, 28)
+data.setCell(28, 1, 'testCase23')
+data.setCell(28, 2, 'com.tekarch.tests.AutomationScripts')
+data.setCell(28, 3, 8027);
+data.setCell(29, 0, 29)
+data.setCell(29, 1, 'testCase9')
+data.setCell(29, 2, 'com.tekarch.tests.AutomationScripts')
+data.setCell(29, 3, 7977);
+data.setCell(30, 0, 30)
+data.setCell(30, 1, 'testCase21')
+data.setCell(30, 2, 'com.tekarch.tests.AutomationScripts')
+data.setCell(30, 3, 7419);
+data.setCell(31, 0, 31)
+data.setCell(31, 1, 'testCase27')
+data.setCell(31, 2, 'com.tekarch.tests.AutomationScripts')
+data.setCell(31, 3, 6974);
+data.setCell(32, 0, 32)
+data.setCell(32, 1, 'testCase4b')
+data.setCell(32, 2, 'com.tekarch.tests.AutomationScripts')
+data.setCell(32, 3, 6666);
+data.setCell(33, 0, 33)
+data.setCell(33, 1, 'testCase15')
+data.setCell(33, 2, 'com.tekarch.tests.AutomationScripts')
+data.setCell(33, 3, 6587);
+data.setCell(34, 0, 34)
+data.setCell(34, 1, 'testCase1')
+data.setCell(34, 2, 'com.tekarch.tests.AutomationScripts')
+data.setCell(34, 3, 5321);
+data.setCell(35, 0, 35)
+data.setCell(35, 1, 'testCase4a')
+data.setCell(35, 2, 'com.tekarch.tests.AutomationScripts')
+data.setCell(35, 3, 3604);
+data.setCell(36, 0, 36)
+data.setCell(36, 1, 'testCase2')
+data.setCell(36, 2, 'com.tekarch.tests.AutomationScripts')
+data.setCell(36, 3, 3521);
+data.setCell(37, 0, 37)
+data.setCell(37, 1, 'testCase5')
+data.setCell(37, 2, 'com.tekarch.tests.AutomationScripts')
+data.setCell(37, 3, 3463);
+window.suiteTableData['SalesForceTesting']= { tableData: data, tableDiv: 'times-div-SalesForceTesting'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 8 minutes</span>
+              <div id="times-div-SalesForceTesting">
+              </div> <!-- times-div-SalesForceTesting -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-SalesForceTesting" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for SalesForceTesting</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-SalesForceTesting" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-SalesForceTesting" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.tekarch.tests.AutomationScripts</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(public static void com.tekarch.tests.AutomationScripts.testCase1() throws java.io.IOException, chrom...)</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testCase1</span>
+                <span class="method-start">5617 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">10973 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(public static void com.tekarch.tests.AutomationScripts.testCase2() throws java.io.IOException, chrom...)</span>
+                <span class="method-start">13122 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testCase2</span>
+                <span class="method-start">23206 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">26732 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(public static void com.tekarch.tests.AutomationScripts.testCase3() throws java.lang.InterruptedExcep...)</span>
+                <span class="method-start">28876 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testCase3</span>
+                <span class="method-start">31277 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">46961 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(public static void com.tekarch.tests.AutomationScripts.testCase4a() throws java.io.IOException, chro...)</span>
+                <span class="method-start">49082 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testCase4a</span>
+                <span class="method-start">51289 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">54897 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(public static void com.tekarch.tests.AutomationScripts.testCase4b() throws java.lang.InterruptedExce...)</span>
+                <span class="method-start">57020 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testCase4b</span>
+                <span class="method-start">59090 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">65759 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(public static void com.tekarch.tests.AutomationScripts.testCase5() throws java.io.IOException, chrom...)</span>
+                <span class="method-start">67879 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testCase5</span>
+                <span class="method-start">76481 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">79955 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(public static void com.tekarch.tests.AutomationScripts.testCase6() throws java.lang.InterruptedExcep...)</span>
+                <span class="method-start">82083 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testCase6</span>
+                <span class="method-start">91921 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">149405 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(public static void com.tekarch.tests.AutomationScripts.testCase7() throws java.lang.InterruptedExcep...)</span>
+                <span class="method-start">151585 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testCase7</span>
+                <span class="method-start">163120 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">184654 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(public static void com.tekarch.tests.AutomationScripts.testCase8() throws java.lang.InterruptedExcep...)</span>
+                <span class="method-start">186777 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testCase8</span>
+                <span class="method-start">195273 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">205355 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(public static void com.tekarch.tests.AutomationScripts.testCase9() throws java.io.IOException, chrom...)</span>
+                <span class="method-start">207464 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testCase9</span>
+                <span class="method-start">215246 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">223236 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(public static void com.tekarch.tests.AutomationScripts.testCase10() throws java.lang.InterruptedExce...)</span>
+                <span class="method-start">225370 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testCase10</span>
+                <span class="method-start">235660 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">249866 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(public static void com.tekarch.tests.AutomationScripts.testCase11() throws java.lang.InterruptedExce...)</span>
+                <span class="method-start">251998 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testCase11</span>
+                <span class="method-start">261896 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">274034 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(public static void com.tekarch.tests.AutomationScripts.testCase12() throws java.lang.InterruptedExce...)</span>
+                <span class="method-start">276164 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testCase12</span>
+                <span class="method-start">285010 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">298944 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(public static void com.tekarch.tests.AutomationScripts.testCase13() throws java.lang.InterruptedExce...)</span>
+                <span class="method-start">301073 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">testCase13</span>
+                <span class="method-start">311284 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">329994 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(public static void com.tekarch.tests.AutomationScripts.testCase14() throws java.lang.InterruptedExce...)</span>
+                <span class="method-start">332184 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testCase14</span>
+                <span class="method-start">342726 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">363571 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(public static void com.tekarch.tests.AutomationScripts.testCase15() throws java.io.IOException, chro...)</span>
+                <span class="method-start">365706 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testCase15</span>
+                <span class="method-start">376598 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">383191 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(public static void com.tekarch.tests.AutomationScripts.testCase16() throws java.lang.InterruptedExce...)</span>
+                <span class="method-start">385340 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testCase16</span>
+                <span class="method-start">393200 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">407332 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(public static void com.tekarch.tests.AutomationScripts.testCase17() throws java.lang.InterruptedExce...)</span>
+                <span class="method-start">409464 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testCase17</span>
+                <span class="method-start">418282 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">427027 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(public static void com.tekarch.tests.AutomationScripts.testCase18() throws java.lang.InterruptedExce...)</span>
+                <span class="method-start">429168 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testCase18</span>
+                <span class="method-start">438584 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">449890 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(public static void com.tekarch.tests.AutomationScripts.testCase19() throws java.lang.InterruptedExce...)</span>
+                <span class="method-start">452023 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testCase19</span>
+                <span class="method-start">460799 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">472092 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(public static void com.tekarch.tests.AutomationScripts.testCase20() throws java.io.IOException, chro...)</span>
+                <span class="method-start">474228 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testCase20</span>
+                <span class="method-start">480349 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">490218 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(public static void com.tekarch.tests.AutomationScripts.testCase21() throws java.io.IOException, chro...)</span>
+                <span class="method-start">492398 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testCase21</span>
+                <span class="method-start">502347 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">509775 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(public static void com.tekarch.tests.AutomationScripts.testCase22() throws java.lang.InterruptedExce...)</span>
+                <span class="method-start">511929 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testCase22</span>
+                <span class="method-start">520353 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">540571 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(public static void com.tekarch.tests.AutomationScripts.testCase23() throws java.io.IOException, chro...)</span>
+                <span class="method-start">542703 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testCase23</span>
+                <span class="method-start">551955 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">559989 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(public static void com.tekarch.tests.AutomationScripts.testCase24() throws java.lang.InterruptedExce...)</span>
+                <span class="method-start">562144 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testCase24</span>
+                <span class="method-start">572194 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">586008 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(public static void com.tekarch.tests.AutomationScripts.testCase25() throws java.io.IOException, chro...)</span>
+                <span class="method-start">588144 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testCase25</span>
+                <span class="method-start">596678 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">606361 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(public static void com.tekarch.tests.AutomationScripts.testCase26() throws java.lang.InterruptedExce...)</span>
+                <span class="method-start">608519 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testCase26</span>
+                <span class="method-start">618198 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">634301 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(public static void com.tekarch.tests.AutomationScripts.testCase27() throws java.io.IOException, chro...)</span>
+                <span class="method-start">636432 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testCase27</span>
+                <span class="method-start">647594 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">654589 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(public static void com.tekarch.tests.AutomationScripts.testCase28() throws java.io.IOException, chro...)</span>
+                <span class="method-start">656736 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testCase28</span>
+                <span class="method-start">664146 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">673308 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(public static void com.tekarch.tests.AutomationScripts.testCase29() throws java.io.IOException, chro...)</span>
+                <span class="method-start">675466 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testCase29</span>
+                <span class="method-start">685293 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">693927 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(public static void com.tekarch.tests.AutomationScripts.testCase30() throws java.lang.InterruptedExce...)</span>
+                <span class="method-start">696083 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testCase30</span>
+                <span class="method-start">704946 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">718357 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(public static void com.tekarch.tests.AutomationScripts.testCase31() throws java.lang.InterruptedExce...)</span>
+                <span class="method-start">720490 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testCase31</span>
+                <span class="method-start">731505 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">746631 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(public static void com.tekarch.tests.AutomationScripts.testCase32() throws java.lang.InterruptedExce...)</span>
+                <span class="method-start">748768 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">testCase32</span>
+                <span class="method-start">761102 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">770914 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(public static void com.tekarch.tests.AutomationScripts.testCase33() throws java.lang.InterruptedExce...)</span>
+                <span class="method-start">773203 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testCase33</span>
+                <span class="method-start">787602 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">796250 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(public static void com.tekarch.tests.AutomationScripts.testCase34() throws java.lang.InterruptedExce...)</span>
+                <span class="method-start">798380 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testCase34</span>
+                <span class="method-start">804408 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">825541 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(public static void com.tekarch.tests.AutomationScripts.testCase35() throws java.lang.InterruptedExce...)</span>
+                <span class="method-start">827726 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testCase35</span>
+                <span class="method-start">836973 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">858597 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(public static void com.tekarch.tests.AutomationScripts.testCase36() throws java.lang.InterruptedExce...)</span>
+                <span class="method-start">860843 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testCase36</span>
+                <span class="method-start">871762 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">888903 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(public static void com.tekarch.tests.AutomationScripts.testCase37() throws java.lang.InterruptedExce...)</span>
+                <span class="method-start">891037 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testCase37</span>
+                <span class="method-start">899963 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">913456 ms</span>
+              </div> <!-- configuration-method after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>
