@@ -11,7 +11,7 @@
 			</class>
 		</classes>
 	</test> 
-	<test name="TestFirefox">
+	<!-- <test name="TestFirefox">
 		<parameter name="browser" value="firefox"></parameter>
 		<classes>
 			<class name="com.tekarch.tests.AutomationScripts">
@@ -24,5 +24,5 @@
 			<class name="com.tekarch.tests.AutomationScripts">
 			</class>
 		</classes>
-	</test>
+	</test> -->
 </suite> <!-- Suite -->
